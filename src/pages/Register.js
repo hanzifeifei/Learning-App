@@ -23,8 +23,7 @@ export default class Register extends Component<Props> {
         'Email was not entered!',
         [
           {text: 'OK'},
-        ],
-        { cancelable: false }
+        ]
       )
     }
     else if(this.state.password == '') {
@@ -33,8 +32,7 @@ export default class Register extends Component<Props> {
         'Password was not entered!',
         [
           {text: 'OK'},
-        ],
-        { cancelable: false }
+        ]
       )
     }
     else if(this.state.firstName == '') {
@@ -43,8 +41,7 @@ export default class Register extends Component<Props> {
         'First Name was not entered!',
         [
           {text: 'OK'},
-        ],
-        { cancelable: false }
+        ]
       )
     }
     else if(this.state.lastName == '') {
@@ -53,8 +50,7 @@ export default class Register extends Component<Props> {
         'Last Name was not entered!',
         [
           {text: 'OK'},
-        ],
-        { cancelable: false }
+        ]
       )
     }
     else {

@@ -20,8 +20,7 @@ export default class EmailLogin extends Component<Props> {
         'Email was not entered!',
         [
           {text: 'OK'},
-        ],
-        { cancelable: false }
+        ]
       )
     }
     else if (this.state.password == '') {
@@ -30,8 +29,7 @@ export default class EmailLogin extends Component<Props> {
         'Password was not entered!',
         [
           {text: 'OK'},
-        ],
-        { cancelable: false }
+        ]
       )
     } else {
       db.handleLogin(this.state, this.props.navigation)
